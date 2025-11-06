@@ -1,4 +1,4 @@
- IAM Role for EKS Cluster
+#IAM Role for EKS Cluster
 resource "aws_iam_role" "eks_cluster_role" {
   name = "${var.cluster_name}-cluster-role"
 
